@@ -12,8 +12,8 @@ import Container from '@/components/layout/container';
 import useWindowSize from '@/hooks/use-window-size';
 import { copyTextToClipboard } from '@/lib/utils';
 
-let email = 'reachsagarshah@gmail.com';
-let phone = '+91 8980500565';
+let email = 'flyawaytosky2025@gmail.com';
+let phone = '+1 214 738 5740';
 
 type CopyValue = 'email' | 'phone';
 
@@ -83,12 +83,6 @@ const ContactSection = () => {
               <Copy />
             </IconButton>
           </div>
-        </div>
-        <div className="flex flex-col items-center gap-2">
-          <Typography className="text-center">
-            You may also find me on these platforms!
-          </Typography>
-          <SocialIcons />
         </div>
       </div>
     </Container>
